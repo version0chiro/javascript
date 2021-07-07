@@ -12,7 +12,7 @@ const { Builder, By, Key, until } = require("selenium-webdriver");
       console.log("No pop up!");
     }
 
-    await driver.findElement(By.name("q")).sendKeys("Playstation", Key.ENTER);
+    await driver.findElement(By.name("q")).sendKeys("Wireless Headphones", Key.ENTER);
 
     for (var i = 1; i <= 10; i++) {
       let firstResult = await driver.wait(
