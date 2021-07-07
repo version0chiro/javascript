@@ -14,7 +14,7 @@ const { Builder, By, Key, until } = require("selenium-webdriver");
 
     await driver
       .findElement(By.name("q"))
-      .sendKeys("Wireless Headphones", Key.ENTER);
+      .sendKeys("Gaming Laptop", Key.ENTER);
 
     let firstResult = await driver.wait(
       until.elementLocated(
